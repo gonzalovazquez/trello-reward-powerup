@@ -1,8 +1,6 @@
 var t = TrelloPowerUp.iframe();
 
-var rewardBtn = document.querySelector('.add-reward');
-
-rewardBtn.addEventListener('onclick', function(event){
+document.getElementById('add-reward').addEventListener('click', function(event){
   // Stop the browser trying to submit the form itself.
   event.preventDefault();
   return t.set('card', 'shared', 'estimate', window.estimateSize.value)
