@@ -5,8 +5,8 @@ TrelloPowerUp.initialize({
       text: 'Claim Reward!',
       callback: function(t) {
         return t.popup({
-          title: "Reward",
-          url: 'reward.html',
+          title: "Reward Chest",
+          url: 'https://lustrous-bubblegum-0acd0e.netlify.app/',
         })
       }
     }];
